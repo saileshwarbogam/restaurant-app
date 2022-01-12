@@ -1,0 +1,47 @@
+[
+    {
+        "name":"Crusty Garlic Focaccia with Melted Cheese",
+        "price":105.00,
+        "course":"Fast Food"
+    },
+    
+    {
+        "name":"French Fries",
+        "price":105.00,
+        "course":"snacks"
+    },
+
+    {
+        "name":"Home Country Fries with Hearbs & Chilli Flakes",
+        "price":105.00,
+        "course":"snacks"
+
+    },
+
+    {
+        "name":"French Fries with Cheese & Chilli Flakes",
+        "price":135.00,
+        "course":"snacks"
+
+    },
+    {
+        "name":"Pizza",
+        "price":110.00,
+        "course" : "Fast Food"
+    },
+    {
+        "name":"Burger",
+        "price":110.00,
+        "course" : "Fast Food"
+    },
+    {
+        "name":"Pani Puri",
+        "price": 10.00,
+        "course":"Fast Food"
+    },
+    {
+        "name":"Noodles",
+        "price" : 50.00,
+        "course" : "Fast Food"
+    }
+]
