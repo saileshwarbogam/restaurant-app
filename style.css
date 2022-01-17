@@ -91,7 +91,6 @@ html, body{
     background-color: rgba(0,0,0,0.7);
     position: absolute;
     top: 0;
-    display: flex;
     justify-content: center;
     align-items: center;
     display: none;
@@ -100,8 +99,15 @@ html, body{
     width: 50%;
     height: 500px;
     background-color: white;
-    border-radius: 10px;
     position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+
+/* Hide scroll bar */
+::-webkit-scrollbar{
+    display: none;
 }
 .close{
     position: absolute;
@@ -119,7 +125,6 @@ html, body{
     color: white;
     padding: 20px;
     font-size: 30px;
-    border-radius: 10px;
 }
 .table-content th ,td{
     padding: 10px;
@@ -128,6 +133,7 @@ html, body{
 }
 .table-content{
     width: 100%;
+    
 }
 .no-of-servings{
     border: 0px;
@@ -135,4 +141,26 @@ html, body{
     outline: 0px;
     width: 80px;
     text-align: center;
+
+}
+.total-cost-style{
+    font-size: 15px;
+    margin-left: 606px;
+}
+.generate-bill{
+    /* position: absolute; */
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    cursor: pointer;
+    color: white;
+    font-size: 10px;
+    margin: 30px;
+}
+.generate-bill span{
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+    border: 0.5px solid black;
+    position: sticky;
 }
